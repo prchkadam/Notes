@@ -1,0 +1,15 @@
+.type {
+    list-style-type: upper-roman;
+}
+img {
+    width: 10%;
+}
+
+#block{
+    background-color: bisque;
+}
+
+.inline{
+    background-color:cadetblue ;
+    display: inline-block;
+}

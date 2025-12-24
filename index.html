@@ -1,0 +1,162 @@
+<!-- Use ! to load boiler plate code -->
+<!DOCTYPE html> <!-- This tag declares that this is an HTML5 document -->
+<html lang="en"> <!-- This tag is the root of an HTML page -->
+<head> <!-- The head element contains meta information about the document -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <!-- The title element specifies a title for the document -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body> <!-- The body element contains the visible page content -->
+    <ul>
+    <li> <p>There are different types of tags, they are used for semantic meaning, structure and presentation, and formatting.</p> </li>
+    <li> <p>Tags can be self closing, or they can have content.</p> </li>
+    <li> <p>Tags can have attributes, which are used to provide additional information about the element.</p> </li>
+    <li> <p>Tags can have content, which is the text or other elements that are inside the tag.</p> </li>
+    <li> <p>Tags can have attributes, which are used to provide additional information about the element.</p> </li>
+
+
+    <!-- Heading Tag -->
+    <li> <p id="headings">There are 6 types of Heading tags</p> </li> 
+    <h1>Heading 1</h1> <!--These has semantic meanings, H1 has higher priority and its priority decreases-->
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>  
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <!-- H7 and further doesn't exist, and if we write them, they will act as normal para tag-->
+    <!-- Don't Use Headings for Styling, follow a logical, hierarchical structure, similar to a document outline -->
+
+
+    <!-- Anchor tag -->
+    <li> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements" title="Click on this"> MDN list of all tags</a> </li> 
+    <!-- Using title attribute, we can add hovering text -->
+    <li>  <a href="http://www.geeksforgeeks.org/html/html-tags-a-to-z-list/" target="_blank"> W3 list of all tags</a> </li> 
+    <!-- using target attribute we can identiy where to display the linked URL -->
+
+    <!-- List tag -->
+    <li> <p>There are different types of list tags</p> </li> 
+    <ul>
+        <li>Unordered List</li>
+        <li>Ordered List</li>
+    </ul>
+    <!--Both the list have semantic difference, ordered list are strictly to be followed ordered wise and unordered list have no such rule.-->
+
+    <li><p> This is the example of ordered list </p></li>
+    <ol class="type">
+        <li> List item 1 </li>
+        <li> List item 2 </li>
+        <li> List item 3 </li>
+    </ol>
+    <!-- We can give different style to the numbering using CSS style type-->
+
+
+    <!-- Table tag -->
+    <table>
+        <li><P>This is an example of table</P></li>
+        <caption>Dummy table</caption>
+        
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ram</td>
+                <td>75</td>
+            </tr>  
+            <tr>
+                <td>Shayam</td>
+                <td>85</td>
+            </tr> 
+            <tr>
+                <td>John</td>
+                <td>46</td>
+            </tr>      
+        </tbody>
+        <!-- emmet abbrevation tbody>(tr>td*2)*3-->
+
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>206</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <!-- Image tag -->
+     <p>This is an image created using img tag</p>
+     <img src="https://images.unsplash.com/photo-1527118732049-c88155f2107c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="panda image">
+     <!-- We can set the size of images using CSS -->
+    
+
+    <!-- Bookmark -->
+    <a href="#headings"> Click here to go the Heading tag discussion</a>
+
+
+    <!--Identity to a tag-->
+    <li> <p> We have two ways to give identity to tags </p> </li> 
+    <ul>
+        <li> Class = . </li>
+        <li> ID = # </li>
+    </ul>
+
+
+    <!-- Different types of formatting tags -->
+    <li>Different types of formatting tags</li>
+    <ol>
+        <li>Bold tag = This will make text <b>bold</b>.</li>
+        <!-- This is not preferred to use, suggestion is to use CSS styling -->
+        <li>Strong tag = This will make text <strong>strong</strong>.</li>
+        <!-- This is preferred to use, when text to speech is use the words with strong tag will get more emphasis on speech -->
+        <li>Italic tag = This will make text <i>italic</i>.</li>
+         <!-- This is not preferred to use, suggestion is to use CSS styling -->
+        <li>Emphasis tag = This will make text <em>emphasize</em>.</li>
+         <!-- This is preferred to use, when text to speech is use the words with exphasis tag will get more emphasis on speech -->
+        <li>Underline tag = This will make text <u>underline</u>.</li>
+        <li>Strike tag = This will make text <s>strikethrough</s>.</li>
+        <li>We can use subscript tag to make text subscript <sub>subscript</sub>.</li>
+        <li>We can use superscript tag to make text superscript <sup>superscript</sup>.</li>
+        <li>Pre tag = This will make text preformatted <pre>preformatted</pre>.</li>
+    </ol>
+
+
+<!-- Different types of structure tags -->
+    <li>Different types of structure tags</li>
+    <ol>
+        <li>Header tag = Used as a container for introductory content or a group of navigational links <header>HEADER</header></li>
+        <li>Footer tag = To define the footer section for its nearest ancestor sectioning content or the entire webpage<footer>FOOTER</footer></li>
+        <li>Section tag = To define a section in a document<section>SECTION</section></li>
+        <li>Article tag = To define an independent, self-contained piece of content<article>ARTICLE</article></li>
+        <li>Nav tag = To define a section of a page that links to other pages or to parts within the page<nav>NAVIGATION</nav></li>
+        <li>Main tag = To define the main content of a document<main>MAIN</main></li>
+        <li>Aside tag = To define content that is tangentially related to the content around it<aside>ASIDE</aside></li>
+    </ol>
+
+    <!-- emmet abbrevation -->
+    <!-- p>h1*2 -->
+    <!-- p+h1 -->
+    <!-- p{This is para} -->
+     <!-- p.section -->
+    <!-- p#section -->
+
+
+    <!-- Div tag -->
+    <div id="block"> <li> Div tag = It is the generic block container for flow content. It has no effect on the content or layout until styled in some way using CSS </li></div>
+    <!-- Span tag -->
+     <span class="inline"> <li>Span tag = It is a generic inline container for phrasing content. </li></span>
+
+    
+    <!-- Block and inline element -->
+     <li>Block elements takes entire width of website</li>
+     <li>Inline elements takes width till the content</li>
+    </ul>
+</body>
+</html>
+
+
