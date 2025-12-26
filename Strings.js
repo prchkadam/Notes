@@ -49,7 +49,7 @@ console.log(length.length);
 
 
 // string methods = these are built in functions to manipulate a string
-// Strings are immutable(unchangeable) in JavaScript, i.e using method won't change the original string, to save the change we have to save it in new variable
+// Strings are immutable(unchangeable) in JavaScript, i.e using method won't change the original string, to save the change we have to save it in new variable(i.e returns new strings)
 /*
   1. str.toUpperCase( )
   2. str.toLowerCase( )

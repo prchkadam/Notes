@@ -57,6 +57,7 @@ do{
 
 /* For - of loop
 It helps to apply loop on string and arrays 
+A for...of loop operates on the values sourced from an iterable one by one in sequential order. Each operation of the loop on a value is called an iteration, and the loop is said to iterate over the iterable. Each iteration executes statements that may refer to the current sequence value.
 
 for(let val of strVar){
     
