@@ -16,6 +16,8 @@
         console.log("i = ", i);
     }
     // the i which we have initialized is not accessible outside the loop
+    console.log("\n");
+
 
     // Calculate sum of 1 to n numbers
     // let n = prompt("Enter your desired number");
@@ -25,7 +27,8 @@
         sum = sum + i;
     }
     console.log(`sum = ${sum}`);
-
+    console.log("\n");
+ 
 
 /* infinite loop */
 
@@ -40,6 +43,7 @@ while(i <= 5){
     console.log("i = ", i);
     i++ ;
 } 
+console.log("\n");
 
 
 /* Do while loop
@@ -53,6 +57,7 @@ do{
     console.log("number = ", num);
     num++ ;
 } while(num <= 5);
+console.log("\n");
 
 
 /* For - of loop
@@ -71,6 +76,7 @@ for(let i of str){
     size++;
 }
 console.log(`Size of string = ${size}`);
+console.log("\n");
 
 
 /*  For in loop 

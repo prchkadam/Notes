@@ -9,12 +9,16 @@ let str2 = `Welcome Us`;
 // String length = spaces are also counted
 console.log(str.length);
 console.log(str1.length);
+console.log("\n");
+console.log("\n");
 
 
 // String Indices
 str[0], str[1];
 console.log(str[11]); // here space is not an index, therefore even though length is 12 still ! comes at 11th position
 console.log(str1[0]);
+console.log("\n");
+console.log("\n");
 
 
 // Template literals = A way to have embedded expressions in strings.
@@ -32,7 +36,8 @@ console.log("The cost of", object.item, "is", object.price, "rupees");
 // Second way
 let output = `The cost of ${object.item} is ${object.price} rupees.` ;
 console.log(output);
-
+console.log("\n");
+console.log("\n");
 
 // String Interpolation = To create stings by doing substitution of placeholder
 // `string text ${expression} string text`;
@@ -46,8 +51,10 @@ console.log("This will create a \t tab space");
 // The length of escape character is 1
 let length = "\n"
 console.log(length.length);
+console.log("\n");
 
 
+// Methods are functions which we use with (.)
 // string methods = these are built in functions to manipulate a string
 // Strings are immutable(unchangeable) in JavaScript, i.e using method won't change the original string, to save the change we have to save it in new variable(i.e returns new strings)
 /*

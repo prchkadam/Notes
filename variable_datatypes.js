@@ -9,7 +9,7 @@ console.log("Divya Kadam");
 25
 console.log(25);
 console.log('25');
-
+console.log("\n");
 
 // variable
 // JavaScript is a dynammicalled typed language meaning we don't need to declare the type of variable
@@ -19,27 +19,31 @@ age = 64;
 
 console.log(fullName);
 console.log(sgpa);
+console.log("\n");
 
 console.log(typeof fullName);
 console.log(typeof sgpa);
 console.log(typeof age);
+console.log("\n");
 
 age = 'sixty four';
 console.log(age);
 
 console.log(typeof age);
-
+console.log("\n");
 
 // null means the variable is assigned a value of null
 x = null;
 console.log(x);
 console.log(typeof x);
+console.log("\n");
 
 
 // undefined means the variable is declared but not assigned a value
 y = undefined;
 console.log(y);
 console.log(typeof y);
+console.log("\n");
 
 
 // boolean values are true or false
@@ -50,6 +54,7 @@ console.log(typeof ifFollow);
 ifPassed = false;
 console.log(ifPassed);
 console.log(typeof ifPassed);
+console.log("\n");
 
 
 // assignment operator (=) is used to assign a value to a variable
@@ -109,6 +114,8 @@ studentName = "Divya Kadam";
 console.log(studentName);
 console.log(studentAge);
 console.log(studentSgpa);
+console.log("\n");
+
 
 // we don't use var as can be re-declared & updated, which can cause confusion later in thousands lines of code
 
@@ -154,6 +161,8 @@ console.log(typeof z);
 let s = Symbol("Hello!");
 console.log(s);
 console.log(typeof s);
+console.log("\n");
+
 
 // Non-Primitives
 // Object (Arrays, Functions)
@@ -168,6 +177,8 @@ console.log(student);
 console.log(typeof student);
 console.log(student.name);
 console.log(student["age"]);
+console.log("\n");
+
 // the data inside the block is called keys and the values are called values
 // key : value,
 
@@ -176,7 +187,7 @@ student.name = "Shyam";
 console.log(student.name);
 student["age"] = 20
 console.log(student.age);
-
+console.log("\n");
 
 // Mathematical operators
 let num1= 10;
@@ -185,6 +196,7 @@ console.log(num1 + num2);
 console.log(num1 - num2);
 console.log(num1 * num2);
 console.log(num1 / num2);
+console.log("\n");
 
 let char1 = "Divya";
 let char2 = "Kadam";

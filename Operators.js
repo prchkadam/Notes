@@ -15,7 +15,7 @@ console.log("a / b = ", a / b);
 
 console.log("a % b = ", a % b); // This will print the remainder of the division
 console.log("a ** b = ", a ** b); // This will print the power of the division a^b
-
+console.log("\n");
 /* Uninary operators
    1. Increment
    2. Decrement
@@ -27,9 +27,11 @@ console.log("c = ", c);
 
 c = 5;
 console.log( "c + 1 = ", c + 1);
+console.log("\n");
 
 c = 5;
 console.log("++c = ", ++c); // pre increment
+console.log("\n");
 
 c = 5;
 console.log("c-- = ", c--); // post decrement
@@ -37,10 +39,11 @@ console.log("c = ", c)
 
 c = 5;
 console.log("c - 1 = ", c - 1); 
+console.log("\n");
 
 c = 5;
 console.log("--c = ", --c); // pre decrement
-
+console.log("\n");
 
 /* Assignment Operators */
 let d = 5; 
@@ -68,7 +71,7 @@ console.log("d = ", d);
 d = 5;
 d **= 2; // d = d ** 2
 console.log("d = ", d);
-
+console.log("\n");
 
 /* Comparison Operators
    1. Equal to ==
@@ -84,17 +87,20 @@ console.log("e == f = ", e == f);
 console.log("e != f = ", e != f);
 console.log("e === f = ", e === f); // this will first compare the numeric value then the type.
 console.log("e !== f = ", e !== f);
+console.log("\n");
 
 e = 5;
 f = "5"; // js will implicitely convert the string to number
 console.log("e == f = ", e == f); // this will just compare the numeric value --> true
 console.log("e === f = ", e === f); // this gives false, as type of data is different. --> false
 console.log("e !== f = ", e !== f);
+console.log("\n");
 
 console.log("5 < 7 = ", 5 < 7);
 console.log("5 > 7 = ", 5 > 7);
 console.log("5 <= 7 = ", 5 <= 7);
 console.log("5 >= 7 = ", 5 >= 7);
+console.log("\n");
 
 
 /*Logical Operators

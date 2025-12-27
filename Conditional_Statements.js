@@ -16,6 +16,7 @@ if(mode === "Light"){
     colour = "White";
 }
 console.log(colour);
+console.log("\n");
 
 
 /* If else statement
@@ -32,6 +33,7 @@ if(age >= 18){
 else{
     console.log("You are not eligible to vote");
 }
+console.log("\n");
 
 
 // If a number is even or odd
@@ -46,6 +48,8 @@ if(num % 2 === 0){
 else{
     console.log(num + " is odd");
 }
+console.log("\n");
+
 
 
 /* else if statement
@@ -65,6 +69,7 @@ if (condition) {
 
 let price = 20;
 price > 40 ? console.log("Expensive") : console.log("Cheap");
+console.log("\n");
 
 
 /* Switch Statement

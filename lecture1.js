@@ -11,6 +11,8 @@ const product = {
 };
 
 console.log(product);
+console.log("\n");
+
 
 // Q2. Create a const object called “profile” to store information shown in the picture.
 

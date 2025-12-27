@@ -7,13 +7,14 @@ console.log(info);
 
 console.log(typeof info); // Array is an object, containing key : value pair, but instead of key we have index
 console.log(arr.length); // length is a property
-
+console.log("\n");
 
 // Array Indices = arr[0], arr[1].......
 console.log(info[1]);
 console.log(info[3]);
 info[2] = 11; // arrays are mutable, that is we can change the value of an array
 console.log(info);
+console.log("\n");
 
 
 // Looping over an array = print all elements of an array
@@ -22,19 +23,21 @@ console.log(info);
 for(let idx = 0; idx < arr.length; idx++){
     console.log(arr[idx]);
 }
+console.log("\n");
 
 // We prefer to use for of loop
 for(let el of info){
     console.log(el);
 }
+console.log("\n");
 
 let games = ["FIR", "GTA", "GNG", "COD", "CSGO"];
 for(let game of games){
     console.log(game.toLowerCase());
 }
+console.log("\n");
 
-
-
+// // Methods are functions which we use with (.)
 /* Array Methods
    1. Push( ) : add to end
    2. Pop( ) : delete from end & return
@@ -55,6 +58,7 @@ students.push("Tina", "Om", "Soham");
 // this changes the original array
 
 console.log(students);
+console.log("\n");
 
 
 // Pop( )
@@ -64,6 +68,7 @@ let deleted_students = students.pop();
 // this changes the original array
 console.log(students);
 console.log(deleted_students);
+console.log("\n");
 
 
 // toString( )
@@ -71,12 +76,14 @@ roll_no = [12, 15, 17];
 console.log(roll_no.toString());
 console.log(roll_no);
 // Thus this doesn't change the original array instead returns a new string
+console.log("\n");
 
 
 // Concat( )
 console.log(students.concat(roll_no , games));
 console.log(students);  
 // Thus this doesn't change the original array instead returns a new array
+console.log("\n");
 
 
 // Unshift( )
@@ -85,6 +92,7 @@ students.unshift("Tina", "Om", "Soham");
 // this changes the original array
 
 console.log(students);
+console.log("\n");
 
 
 //shift()
@@ -94,6 +102,7 @@ deleted_students = students.shift();
 // this changes the original array
 console.log(students);
 console.log(deleted_students);
+console.log("\n");
 
 
 //slice(startIndex , endIndex)
@@ -103,6 +112,7 @@ console.log(students.slice(3));
 console.log(students.slice(-3)); //negative index counts from end
 // doesn't change the original array
 console.log(students);
+console.log("\n");
 
 
 //splice (startIndex , deleteCount , newElement)
@@ -119,4 +129,4 @@ console.log(students);
 students.splice(3);
 console.log(students);
 students.splice();
-console.log(students);
+console.log(students); 

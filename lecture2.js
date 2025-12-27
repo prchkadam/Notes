@@ -9,6 +9,7 @@ if(num % 5 === 0){
 else{
     console.log(`The number ${num} is not multiple of 5`);
 }
+console.log("\n");
 
 
 // Q2. Write a code which can give grades to students according to their scores:
