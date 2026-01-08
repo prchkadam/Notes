@@ -16,7 +16,7 @@ console.log("a / b = ", a / b);
 console.log("a % b = ", a % b); // This will print the remainder of the division
 console.log("a ** b = ", a ** b); // This will print the power of the division a^b
 console.log("\n");
-/* Uninary operators
+/* Unary operators
    1. Increment
    2. Decrement
 */
